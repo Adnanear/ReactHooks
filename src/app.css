@@ -20,12 +20,17 @@ body {
 }
 
 .App {
-  width: min(80rem, 100vw);
+  width: min(40rem, 100vw);
   margin-inline: auto;
 }
 
 fieldset {
   padding: 1em;
+  margin-block: 1em;
+}
+
+fieldset > legend {
+  padding-inline: 1em;
 }
 
 hr {
